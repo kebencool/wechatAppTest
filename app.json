@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/navigate/navigate",
+    "pages/redirect/redirect/redirect",
+    "pages/map/map",
+    "pages/request/request",
+    "pages/image/camera"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蟹堡皇",
+    "navigationBarTextStyle":"black"
+  }
+}

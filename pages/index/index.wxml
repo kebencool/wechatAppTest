@@ -1,0 +1,24 @@
+<!-- sample.wxml -->
+
+
+<template name="template1">
+  <view>{{name}}</view>
+</template>
+
+<block wx:for="{{[1,2]}}">
+  <template is="template1" data="{{...templateData}}"></template>
+</block>
+<view class="btn-area">
+<navigator url="/pages/image/camera" hover-class="navigator-hover">跳转到拍照</navigator>
+  <navigator url="/pages/navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="/pages/request/request?title=api" hover-class="navigator-hover">跳转到api页面</navigator>
+  <navigator url="/pages/map/map" open-type="redirect" hover-class="other-navigator-hover">在当前页打开地图</navigator>
+  <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+</view>
+<!--wxml-->
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+{{idx}}:{{itemName.msg}}
+</view>
+<view wx:if="{{view == '1'}}">if的使用</view>
+
+<view bindtap="bindViewTap">点击事件</view>
