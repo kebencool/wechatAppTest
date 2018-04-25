@@ -9,7 +9,7 @@
   <template is="template1" data="{{...templateData}}"></template>
 </block>
 <view class="btn-area">
-<navigator url="/pages/image/camera" hover-class="navigator-hover">跳转到拍照</navigator>
+<navigator url="/pages/image/camera" hover-class="navigator-hover">跳转到拍</navigator>
   <navigator url="/pages/navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
   <navigator url="/pages/request/request?title=api" hover-class="navigator-hover">跳转到api页面</navigator>
   <navigator url="/pages/map/map" open-type="redirect" hover-class="other-navigator-hover">在当前页打开地图</navigator>

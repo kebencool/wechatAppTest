@@ -86,7 +86,7 @@ Page({
   getMapMarkers : function(){
     var that = this
     wx.request({
-      url: 'http://172.20.10.3:8762/getMarkers',
+      url: 'http://localhost:8762/getMarkers',
       data: '',
       header: {},
       method: 'GET',

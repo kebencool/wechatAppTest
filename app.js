@@ -13,7 +13,7 @@ App({
           console.log(res)
           //发起网络请求
           wx.request({
-            url: 'http://172.20.10.3:8762/sendUserCode',
+            url: 'http://localhost:8762/sendUserCode',
             data: {
               code: res.code
             },
